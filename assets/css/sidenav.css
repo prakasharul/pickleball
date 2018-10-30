@@ -1,0 +1,59 @@
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99999999;
+    top: 0;
+    left: 0;
+    background: rgba(247,146,30,1);
+background: -moz-linear-gradient(left, rgba(247,146,30,1) 0%, rgba(255,92,10,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,146,30,1)), color-stop(100%, rgba(255,92,10,1)));
+background: -webkit-linear-gradient(left, rgba(247,146,30,1) 0%, rgba(255,92,10,1) 100%);
+background: -o-linear-gradient(left, rgba(247,146,30,1) 0%, rgba(255,92,10,1) 100%);
+background: -ms-linear-gradient(left, rgba(247,146,30,1) 0%, rgba(255,92,10,1) 100%);
+background: linear-gradient(to right, rgba(247,146,30,1) 0%, rgba(255,92,10,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7921e', endColorstr='#ff5c0a', GradientType=1 );
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: 0.5s;
+   
+
+}
+.sidenav li{
+     border-bottom: 1px #df700e solid;
+}
+.sidenav li:last-child{
+    border-bottom: none;
+}
+.sidenav a i {
+    width: 40px;
+    text-align: center;
+
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
