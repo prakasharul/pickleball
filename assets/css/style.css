@@ -226,6 +226,13 @@ footer ul li {
   line-height: 36px;
 }
 
+footer a{
+    color: #fff !important;
+}
+footer p {
+    font-size: 15px;
+}
+
 .btn-social{
     /*font-size: 20px;*/
     letter-spacing: 2px;
@@ -328,4 +335,37 @@ textarea{
     /*border-color: #80bdff;*/
    outline: 0;
    box-shadow: 0 0 0 0.1rem #ffb548 !important;
+}
+
+
+#faq-accord a{
+    color: #fff;
+}
+
+#faq-accord .card{
+    margin-bottom: 10px;
+}
+
+#faq-accord p {
+    font-size: 16px;
+}
+p {
+    font-size: 16px;
+}
+ol {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.container ul{
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.list-unstyled{
+    padding-left: 10px;
+}
+
+.text-orange{
+    color: orange !important;
 }
